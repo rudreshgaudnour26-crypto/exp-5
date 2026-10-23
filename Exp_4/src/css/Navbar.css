@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e293b;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.nav-brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 1px solid #475569;
+  color: #cbd5e1;
+  padding: 0.5rem 1rem;
+  /* border-radius: 6px; */
+  cursor: pointer;
+}
+
+.nav-btn.active, .nav-btn:hover {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.nav-counters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.badge {
+  padding: 0.4rem 0.8rem;
+  /* border-radius: 5px; */
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge.pending {  color: white; }
+.badge.completed {  color: white; }

@@ -1,0 +1,33 @@
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.completed-text {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.detail-meta {
+  margin-bottom: 1rem;
+  color: #64748b;
+}
+
+.detail-body {
+  background: #f8fafc;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.large-checkbox {
+  width: 1.2rem;
+  height: 1.2rem;
+}
